@@ -1,6 +1,7 @@
 
 header{
     position: fixed; 
+    z-index: 1000;
     padding: 12px 0;
     width: 100%;
     height: auto;
@@ -192,7 +193,7 @@ header{
     .navbar{
         display: none;
         @include mobile{
-            background-color: none;
+            background-color: transparent !important;
             margin-right: 12px;
             display: flex;
             justify-content: center;
